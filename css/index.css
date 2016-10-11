@@ -1,0 +1,162 @@
+/*header satrt*/
+.header{
+    height:66px;
+    /*position: relative;*/
+    background:url(../images/headerbg.gif) repeat-x left top;
+}
+.headerCon{
+    position: relative;
+    width:1007px;margin:0 auto;}
+.logobox{
+    float:left;display:inline;
+    width:164px;height:66px;
+    background:url(../images/logo.gif) no-repeat;
+    text-indent:-9999px;}
+.logoright{
+    float:right;display:inline;width:672px;
+    padding-right:98px;height:66px;position:relative;z-index:999;}
+.navigation{
+    height:66px;
+    background:url(../images/navbg.gif) no-repeat;}
+.navigation ul li{
+    float:left;display:inline;width:84px;position:relative;height:auto!important;min-height:66px;height:66px;}
+.navigation ul li a{
+    display:block;width:100%;height:66px;position:relative;z-index:999;}
+.navigation ul li a span{
+    display:block;width:100%;height:74px;position:absolute;left:0;top:0;cursor:pointer;z-index:999;}
+.navigation ul li.li0 a:hover span{
+    background:url(../images/nav0.png) no-repeat;
+}
+.navigation ul li.li6 a:hover span{
+    background:url(../images/nav6.png) no-repeat;
+}
+.navigation ul li.li1 a:hover span,.navigation ul li.li1 a.hover span{
+    background:url(../images/nav1.png) no-repeat;
+}
+.navigation ul li.li2 a:hover span{
+    background:url(../images/nav2.png) no-repeat;
+}
+.navigation ul li.li3 a:hover span{
+    background:url(../images/nav3.png) no-repeat;
+}
+.navigation ul li.li4 a:hover span{
+    background:url(../images/nav4.png) no-repeat;
+}
+.navigation ul li.li5 a:hover span{
+    background:url(../images/nav5.png) no-repeat;
+}
+.navigation ul li.li7 a:hover span{
+    background:url(../images/nav7.png) no-repeat;
+}
+.navigation ul li div.downmenu{
+    position:absolute;width:123px;left:0px;top:66px;
+    background:#000;padding:14px 0 10px 0;z-index:998;
+    display: none;
+    }
+.navigation ul li div.downmenu ul li{
+    min-height:17px;
+    height:17px;position:relative;}
+.navigation ul li div.downmenu ul li a{
+    height:22px;width:112px;
+    padding:3px 0 0 11px;color:#b6b6b7;
+    margin-bottom:2px;line-height:22px;}
+.navigation ul li div.downmenu ul li a:hover{background:#595d5c;}
+.navigation ul li div.downmenu ul li a.hover{background:#595d5c;url(../images/downa.gif) no-repeat right top;}
+.returnhome{
+    position:absolute;
+    right:0px;top:0;
+}
+/*header end*/
+/*main start*/
+.Inmain{
+    width:100%;height:655px;
+    position:relative;}
+.InContent{
+    width:1007px;margin:0 auto;
+    background:url(../images/incontbg.gif) repeat-y;
+    height:533px;position:relative;}
+.bannerbox{height:352px;position:relative;overflow:hidden;}
+.bannerbox img{width:1007px;height:352px;position:absolute;left:0;top:0;}
+.Indexscroll{position:relative;width:1027px;height:148px;left:-10px;top:-10px;}
+.pngbg{
+    width:100%;height:100%;_height:148px;_width:1027px;
+    position:absolute;
+    background:url(../images/scrollboxbg.png) no-repeat;
+    z-index:1;left:0;top:0;}
+.indexscrolltxt{
+    position:absolute;width:100%;height:100%;left:0;top:0;z-index:2;}
+.index-prev{
+    width:16px;height:29px;float:left;display:inline;background:url(../images/index-scroll-btn.png) no-repeat;margin:56px 0 0 26px;}
+.index-next{
+    width:16px;height:29px;float:right;display:inline;background:url(../images/index-scroll-btn.png) no-repeat -16px 0;margin:56px 26px 0 0;position:relative;z-index:99;}
+.indexScrollCon{
+    float:left;display:inline;width:936px;height:192px;position:relative;top:-10px;overflow:hidden;margin-left:3px;}
+.indexScrollCon ul{
+    position:relative;
+    width: 2000px;}
+.indexScrollCon ul li{
+    margin: 0 22px;
+    float:left;
+    display:inline;
+    width:110px;}
+.indexScrollCon ul li a{
+    display:block;width:110px;height:173px;
+    margin:0 auto;padding-top:19px;}
+.indexScrollCon ul li a img{
+    height:130px;width:110px;}
+.indexScrollCon ul li.active{
+    background:url(../images/scroll-a-bg.gif) no-repeat;}
+/*banner Á½²à±³¾°*/
+.IndexLeft{
+    position:absolute;left:0;top:0;
+    background:#181818 url(../images/inleftbg.gif) repeat-y right top;
+    width: 170px;
+    height:655px;}
+.IndexRight{
+    position:absolute;right:0;top:0;
+    background:#05080b url(../images/inrightbg.gif) repeat-y left top;
+    width: 170px;
+    height:655px;}
+/*main end*/
+.cont1{
+    height:123px;width:100%;background:#000;position:relative;z-index:999;}
+.cont1-cont{
+    width:1007px;margin:0 auto;}
+.cont1-left{
+    float:left;display:inline;width:291px;padding:21px 0 0 18px;}
+.h3title1{
+    height:14px;background:url(../images/newprotitle.gif) no-repeat;}
+.h3title1 a{
+    float:right;display:inline;width:31px;height:5px;background:url(../images/more.gif) no-repeat;margin-top:8px;}
+.newspro-desc{
+    color:#a8a8a8;line-height:20px;padding:10px 0 0 0;}
+.cont1-center{
+    float:left;display:inline;width:313px;padding:21px 0 0 74px;}
+.h3title2{
+    background:url(../images/newscentertitle.gif) no-repeat;}
+.cont1-center ul{
+    padding-top:10px;}
+.cont1-center ul li{
+    height:20px;line-height:20px;text-align:right;}
+.cont1-center ul li a{
+    float:left;display:inline;height:20px;color:#666;background:url(../images/libg0.gif) no-repeat left center;padding-left:8px;}
+.cont1-center ul li span{font-family:Arial, Helvetica, sans-serif;color:#666;}
+.cont1-center ul li a:hover{
+    color:#a8a8a8;}
+.cont1-right{
+    float:right;display:inline;width:229px;padding-top:21px;}
+.cont1-right img{
+    display:block;height:37px;width:229px;margin-bottom:8px;}
+/**=footer=**/
+.footer{
+    width:100%;height:37px;background:#000;padding-top:9px;}
+.footerCon{
+    width:1007px;margin:0px auto 0;border-top:1px solid #363636;text-align:left;padding-top:10px;}
+.footerCon span{
+    float:right;display:inline;color:#404040;padding-right:5px;}
+.footerCon span a{
+    color:#c8c8c8;font-family:"microsoft YaHei";margin:0 3px;}
+.footerCon label{
+    color:#767676;}
+.footerCon label a{
+    margin-left:8px;color:#545454;}

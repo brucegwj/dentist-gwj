@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size:12px;
+    font-family:"SimSun";
+    background:#000;
+}
+ul,ol,li,dt,dd,dl{
+    list-style: none;
+}
+a,a:hover{
+    color:#a8a8a8;
+    text-decoration:none;
+}
+img{
+    border:none;
+}
+h1,h2,h3,h4,input,textarea{
+    font-size:12px;
+    color:#666;
+    font-family:"SimSun";
+}
+.clearfix:after {
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content:" ";
+    clear:both;
+    height:0;
+}
+.clearfix {
+    zoom:1; /* for IE6 IE7 */
+}
